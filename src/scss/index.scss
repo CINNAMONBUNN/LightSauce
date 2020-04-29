@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap');
 
 $primary-color: #C90E0E;
-
+$fs-btn: 14px;
 * {
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
@@ -55,4 +55,7 @@ $primary-color: #C90E0E;
         color: #fff;
         cursor: pointer;
     }
+}
+.btn {
+    font-size: $fs-btn;
 }
