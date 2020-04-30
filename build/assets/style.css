@@ -361,6 +361,11 @@ template {
   align-items: center;
 }
 
+.title {
+  opacity: 0.5;
+  margin-bottom: 40px;
+}
+
 .menu {
   width: 500px;
 }
@@ -435,6 +440,27 @@ template {
 }
 .preview__primary-btn {
   margin-right: 20px;
+}
+
+.last-projects {
+  display: flex;
+  justify-content: center;
+}
+.last-projects__body {
+  margin: 80px 150px;
+}
+.last-projects__title {
+  font-size: 20px;
+  color: #313131;
+}
+.last-projects__items {
+  display: flex;
+  justify-content: space-between;
+}
+.last-projects__btn-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
 }
 
 /*# sourceMappingURL=style.css.map */

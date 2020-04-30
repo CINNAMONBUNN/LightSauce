@@ -25,7 +25,10 @@ $text-color: #313131;
         align-items: center;
     }
 }
-
+.title {
+    opacity: 0.5;
+    margin-bottom: 40px;
+}
 
 .menu {
     width: 500px;
@@ -101,5 +104,26 @@ $text-color: #313131;
     }
     &__primary-btn {
         margin-right: 20px;
+    }
+}
+
+.last-projects {
+    display: flex;
+    justify-content: center;
+    &__body {
+        margin: 80px 150px;
+    }
+    &__title {
+        font-size: 20px;
+        color: $text-color;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__btn-container {
+        display: flex;
+        justify-content: center;
+        padding: 30px 0px;
     }
 }
