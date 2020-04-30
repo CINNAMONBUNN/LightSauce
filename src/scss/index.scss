@@ -3,6 +3,8 @@
 
 $primary-color: #C90E0E;
 $fs-btn: 14px;
+$primary-back-color: #F0F0F0;
+$text-color: #313131;
 * {
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
@@ -10,14 +12,16 @@ $fs-btn: 14px;
 }
 .container {
     width: 100%;
+    max-width: 1620px;
+    padding: 0px 150px;
 }
 .header {
     display: flex;
     justify-content: center;
     &__body {
-        margin: 40px 150px 70px 150px;
+        margin: 40px 0px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
     }
 }
@@ -48,7 +52,6 @@ $fs-btn: 14px;
     color: $primary-color;
     border: 1px solid $primary-color;
     background-color: #fff;
-    padding: 20px 45px;
     box-shadow: 1px 1px 10px rgba(201, 14, 14, 0.15);
     &:hover {
         background-color: $primary-color;
@@ -57,5 +60,46 @@ $fs-btn: 14px;
     }
 }
 .btn {
+    padding: 20px 45px;
     font-size: $fs-btn;
+}
+.primary-btn {
+    background-color: $primary-color;
+    color: #fff;
+    border: 1px solid transparent;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.preview {
+    display: flex;
+    justify-content: center;
+    background-color: $primary-back-color;
+    &__body {
+        padding: 65px 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        color: #222222;
+        font-size: 36px;
+        line-height: 120%;
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+    &__text {
+        color: $text-color;
+        font-size: 17px;
+        line-height: 144%;;
+        max-width: 555px; 
+    }
+    &__article {
+        margin: 0px;
+    }
+    &__buttons {
+        margin-top: 30px;
+    }
+    &__primary-btn {
+        margin-right: 20px;
+    }
 }

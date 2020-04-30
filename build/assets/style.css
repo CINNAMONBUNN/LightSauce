@@ -346,6 +346,8 @@ template {
 
 .container {
   width: 100%;
+  max-width: 1620px;
+  padding: 0px 150px;
 }
 
 .header {
@@ -353,9 +355,9 @@ template {
   justify-content: center;
 }
 .header__body {
-  margin: 40px 150px 70px 150px;
+  margin: 40px 0px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -380,7 +382,6 @@ template {
   color: #C90E0E;
   border: 1px solid #C90E0E;
   background-color: #fff;
-  padding: 20px 45px;
   box-shadow: 1px 1px 10px rgba(201, 14, 14, 0.15);
 }
 .outline-btn:hover {
@@ -390,7 +391,50 @@ template {
 }
 
 .btn {
+  padding: 20px 45px;
   font-size: 14px;
+}
+
+.primary-btn {
+  background-color: #C90E0E;
+  color: #fff;
+  border: 1px solid transparent;
+}
+.primary-btn:hover {
+  cursor: pointer;
+}
+
+.preview {
+  display: flex;
+  justify-content: center;
+  background-color: #F0F0F0;
+}
+.preview__body {
+  padding: 65px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.preview__title {
+  color: #222222;
+  font-size: 36px;
+  line-height: 120%;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.preview__text {
+  color: #313131;
+  font-size: 17px;
+  line-height: 144%;
+  max-width: 555px;
+}
+.preview__article {
+  margin: 0px;
+}
+.preview__buttons {
+  margin-top: 30px;
+}
+.preview__primary-btn {
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
