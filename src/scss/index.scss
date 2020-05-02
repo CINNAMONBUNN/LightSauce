@@ -1,5 +1,6 @@
 @import 'normalize.scss';
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap');
 
 $primary-color: #C90E0E;
 $fs-btn: 14px;
@@ -224,5 +225,21 @@ $news-item-back: #EAEAEA;
     &__outline-btn {
         background-color: transparent;
         margin-bottom: 40px;
+    }
+}
+.label {
+    display: flex;
+    justify-content: center;
+    &__body {
+        padding: 80px 150px;
+        text-align: center;
+    }
+    &__text {
+        margin: 0;
+        color: #C90E0E;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 150px;
+        line-height: 144%;
+        letter-spacing: 20px;
     }
 }

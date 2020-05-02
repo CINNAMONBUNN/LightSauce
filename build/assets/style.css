@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -559,6 +560,23 @@ template {
 .news__outline-btn {
   background-color: transparent;
   margin-bottom: 40px;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+}
+.label__body {
+  padding: 80px 150px;
+  text-align: center;
+}
+.label__text {
+  margin: 0;
+  color: #C90E0E;
+  font-family: "Orbitron", sans-serif;
+  font-size: 150px;
+  line-height: 144%;
+  letter-spacing: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
