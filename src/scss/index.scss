@@ -5,6 +5,8 @@ $primary-color: #C90E0E;
 $fs-btn: 14px;
 $primary-back-color: #F0F0F0;
 $text-color: #313131;
+$head-color: #222223;
+
 * {
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
@@ -26,6 +28,7 @@ $text-color: #313131;
     }
 }
 .title {
+    font-size: 20px;
     opacity: 0.5;
     margin-bottom: 40px;
 }
@@ -111,10 +114,9 @@ $text-color: #313131;
     display: flex;
     justify-content: center;
     &__body {
-        margin: 80px 150px;
+        margin: 80px 140px;
     }
     &__title {
-        font-size: 20px;
         color: $text-color;
     }
     &__items {
@@ -125,5 +127,64 @@ $text-color: #313131;
         display: flex;
         justify-content: center;
         padding: 30px 0px;
+    }
+}
+.authors {
+    display: flex;
+    justify-content: center;
+    &__title-container {
+        width: 1640px;
+        margin: 0 auto;
+        display: flex;
+    }
+    &__body {
+        width: 100%;
+    }
+    &__item {
+        display: flex;
+        justify-content: center;
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+    &-left {
+        display: flex;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+    &--first {
+        background-color: $primary-back-color;
+    }
+    &--second {
+        border-bottom: 2px solid #C4C4C4;
+        margin-bottom: 80px;
+    }
+    &-text {
+        color: $text-color;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 144%;
+        max-width: 480px;
+    }
+}
+    &__ava {
+        max-width: 165px;
+        max-height: 165px;
+        margin-right: 35px;
+    }
+    &__picture {
+        width: 296px;
+        height: 296px;
+    }
+    &__text {
+       font-size: 17px;
+       color: $text-color;
+       opacity: 0.9;
+       margin: 8px 0px;
+    }
+    &__name {
+        font-size: 24px;
+        color: $head-color;
     }
 }

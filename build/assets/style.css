@@ -362,6 +362,7 @@ template {
 }
 
 .title {
+  font-size: 20px;
   opacity: 0.5;
   margin-bottom: 40px;
 }
@@ -447,10 +448,9 @@ template {
   justify-content: center;
 }
 .last-projects__body {
-  margin: 80px 150px;
+  margin: 80px 140px;
 }
 .last-projects__title {
-  font-size: 20px;
   color: #313131;
 }
 .last-projects__items {
@@ -461,6 +461,66 @@ template {
   display: flex;
   justify-content: center;
   padding: 30px 0px;
+}
+
+.authors {
+  display: flex;
+  justify-content: center;
+}
+.authors__title-container {
+  width: 1640px;
+  margin: 0 auto;
+  display: flex;
+}
+.authors__body {
+  width: 100%;
+}
+.authors__item {
+  display: flex;
+  justify-content: center;
+}
+.authors__item-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.authors__item-left {
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.authors__item--first {
+  background-color: #F0F0F0;
+}
+.authors__item--second {
+  border-bottom: 2px solid #C4C4C4;
+  margin-bottom: 80px;
+}
+.authors__item-text {
+  color: #313131;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 144%;
+  max-width: 480px;
+}
+.authors__ava {
+  max-width: 165px;
+  max-height: 165px;
+  margin-right: 35px;
+}
+.authors__picture {
+  width: 296px;
+  height: 296px;
+}
+.authors__text {
+  font-size: 17px;
+  color: #313131;
+  opacity: 0.9;
+  margin: 8px 0px;
+}
+.authors__name {
+  font-size: 24px;
+  color: #222223;
 }
 
 /*# sourceMappingURL=style.css.map */
