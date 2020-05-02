@@ -530,6 +530,9 @@ template {
   align-items: center;
   background-color: #F0F0F0;
 }
+.news--blog {
+  background-color: #fff;
+}
 .news__body {
   padding-top: 30px;
 }
@@ -542,6 +545,9 @@ template {
   background-color: #EAEAEA;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.07);
   margin-bottom: 30px;
+}
+.news__item--blog {
+  background-color: #EAEAEA;
 }
 .news__item-text {
   color: #313131;
@@ -560,6 +566,26 @@ template {
 .news__outline-btn {
   background-color: transparent;
   margin-bottom: 40px;
+}
+.news__nav {
+  display: flex;
+  margin-bottom: 75px;
+}
+.news__nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+  background-color: #C4C4C4;
+  font-size: 14px;
+  margin: 7px;
+}
+.news__nav-item--active {
+  background-color: #C90E0E;
 }
 
 .label {
