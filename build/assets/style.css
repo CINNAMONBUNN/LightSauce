@@ -579,4 +579,28 @@ template {
   letter-spacing: 20px;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #151516;
+}
+.footer__body {
+  padding: 65px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__logo {
+  color: #F8F8F8;
+}
+.footer__logo-item {
+  font-size: 28px;
+}
+.footer__logo-item--red {
+  color: #C90E0E;
+}
+.footer__logo-item--grey {
+  opacity: 0.5;
+}
+
 /*# sourceMappingURL=style.css.map */

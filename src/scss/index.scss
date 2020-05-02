@@ -8,6 +8,7 @@ $primary-back-color: #F0F0F0;
 $text-color: #313131;
 $head-color: #222223;
 $news-item-back: #EAEAEA;
+$footer-color: #F8F8F8;
 
 * {
     box-sizing: border-box;
@@ -241,5 +242,28 @@ $news-item-back: #EAEAEA;
         font-size: 150px;
         line-height: 144%;
         letter-spacing: 20px;
+    }
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #151516;
+    &__body {
+        padding: 65px 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        color: $footer-color;
+        &-item {
+            font-size: 28px;
+            &--red {
+                color: $primary-color;
+            }
+            &--grey {
+                opacity: 0.5;
+            }
+        }
     }
 }
