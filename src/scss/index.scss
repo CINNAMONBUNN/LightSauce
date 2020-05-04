@@ -376,3 +376,35 @@ body {
         margin-bottom: 10px;
     }
 }
+.project {
+    display: flex;
+    justify-content: center;
+    &__body {
+        padding-top: 70px;
+    }
+    &__item {
+        display: flex;
+    }
+    &__text {
+        color: #313131;
+        margin-left: 30px;
+        width: 555px;
+    }
+    &__img {
+        width: 460px;
+        height: 360px;
+    }
+    &__title {
+        color: $head-color;
+        font-size: 28px;
+        line-height: 144%;
+        margin-bottom: 17px;
+    }
+    &__primary-btn {
+        display: flex;
+        align-items: center;
+    }
+    &__icon {
+        margin-right: 10px;
+    }
+}

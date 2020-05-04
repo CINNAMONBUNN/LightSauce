@@ -714,4 +714,37 @@ body {
   margin-bottom: 10px;
 }
 
+.project {
+  display: flex;
+  justify-content: center;
+}
+.project__body {
+  padding-top: 70px;
+}
+.project__item {
+  display: flex;
+}
+.project__text {
+  color: #313131;
+  margin-left: 30px;
+  width: 555px;
+}
+.project__img {
+  width: 460px;
+  height: 360px;
+}
+.project__title {
+  color: #222223;
+  font-size: 28px;
+  line-height: 144%;
+  margin-bottom: 17px;
+}
+.project__primary-btn {
+  display: flex;
+  align-items: center;
+}
+.project__icon {
+  margin-right: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
