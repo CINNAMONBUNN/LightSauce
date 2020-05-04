@@ -341,3 +341,38 @@ body {
         opacity: 0.7;
     }
 }
+.projects {
+    display: flex;
+    justify-content: center;
+    &__body {
+        display: grid;
+        grid-template-areas: "item item item";
+        justify-content: space-between;
+        padding-bottom: 40px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $footer-color;
+        width: 360px;
+        height: 278px;
+        margin-bottom: 40px;
+        background: url(./../../src/public/img/projects/projects1.png), rgba(2,2,2,0.35);
+        background-blend-mode: color;
+    }
+    &__btn {
+        color: $footer-color;
+        background-color: transparent;
+        border: 1px solid $footer-color;
+        &:hover {
+            background-color: transparent;
+        }
+    }
+    &__title {
+        font-size: 28px;
+        line-height: 144%;
+        margin-bottom: 10px;
+    }
+}
