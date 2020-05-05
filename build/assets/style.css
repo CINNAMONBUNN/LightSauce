@@ -536,7 +536,7 @@ body {
   background-color: #F0F0F0;
 }
 .news--blog {
-  background-color: #fff;
+  background-color: #F5F5F5;
 }
 .news__body {
   padding-top: 30px;
@@ -553,7 +553,7 @@ body {
 }
 .news__item-text {
   color: #313131;
-  max-width: 650px;
+  max-width: 770px;
   padding: 37px 30px;
 }
 .news__item-title {

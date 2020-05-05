@@ -201,7 +201,7 @@ body {
     align-items: center;
     background-color: $primary-back-color;
     &--blog {
-        background-color: #fff;
+        background-color: #F5F5F5;
     }
     &__body {
         padding-top: 30px;
@@ -217,7 +217,7 @@ body {
         }
         &-text {
             color: $text-color;
-            max-width: 650px;
+            max-width: 770px;
             padding: 37px 30px;       
         }
         &-title {
